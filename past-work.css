@@ -1,0 +1,15 @@
+.top-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-content-wrapper h2 {
+    font-size: 2.7rem; 
+}
+
+.top-content-wrapper p {
+    display: block;
+    width: 50%;
+}
+
+
