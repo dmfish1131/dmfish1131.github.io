@@ -34,12 +34,22 @@
 
   .large-image img {
     position: relative;
+    width: 100%;
+    height: auto;
   }
 
 
   .right-medium-image {
    float: right;
+   width:50%;
+   height: auto;
   }
+
+  .left-medium-image {
+    float: left;
+    width:50%;
+    height: auto;
+   }
 
   .right-medium-text { 
     justify-self: center;
@@ -105,7 +115,7 @@ margin-bottom: 20px;
 
 .home-testimonial {
   color: white;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 0;
   margin-bottom: 0;
