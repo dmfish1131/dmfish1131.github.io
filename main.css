@@ -21,6 +21,12 @@ body {
 .site-title a{
   text-decoration: none;
   color: white
+
+}
+
+.site-title a:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .site-title h1 {
@@ -43,6 +49,7 @@ nav li {
     
   padding: 10px;
   font-size: 1rem;
+
 }
 
 nav li a {
@@ -51,8 +58,9 @@ nav li a {
 }
 
 nav li:hover {
-  font-weight: bold; 
+font-weight: bold;
   text-decoration: underline;
+  font-size: 0.96rem;
 }
 
 /* Style all font awesome icons */
