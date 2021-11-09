@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurrican Home Improvements</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.jpg" type="image/x-icon" />
+</head>
+<body>
+
+    <div class="header-bar">
+        <div class="site-title">
+        <h1> Hurricane Home Improvements</h1>
+    </div> 
+    
+    <nav> 
+        <ul>
+            <li>Past Work</li>
+            <li>Services</li>
+            <li>Testimonials</li>
+            <li>Contact</li>
+            <li><a href="https://www.facebook.com/Hurricane-home-improvements-104142785328515" target="blank" class="fa fa-facebook"></a> </li>
+            <li><a href="#" class="fa fa-twitter"></a> </li>
+        </ul>
+    </nav>
+    </div>
+    
+
+<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="post">
+    <fieldset>
+        <legend>Your Contact Details</legend>
+        <label for="first-name">First Name</label> 
+        <input type="text" id="first-name" name="first-name" >
+
+        <label for="surname">Surname</label> 
+        <input type="text" id="surname" name="surname" >
+
+        <label for="number">Phone Number</label> 
+        <input type="tel" id="number" name="number" >
+
+        <label for="email">E-mail</label> 
+        <input type="email" id="email" name="email" >
+    </fieldset>
+
+    <fieldset>
+        <legend> Leave us a message</legend>
+        <label for="message"></label>
+        <textarea id="message" name="message" > </textarea>
+    </fieldset>
+
+
+<label>
+<input type="checkbox" value="consent" name="consent" id="consent" checked> I consent to be contacted... 
+</label>
+
+<label>
+    <input type="checkbox" value="marketing" name="marketing" id="marketing" > Sign me up to hear your latest offers and other marketing emails.  
+    </label>
+
+<button class="section-button" type="submit"> Send Message </button>
+<input type="hidden" name="send_to" value="daniel.fish@ft.com">
+
+</form>
+<!-- this would be used to make the form submit nice <script src="js/forms.js"></script> -->
+</body>
+</html>
