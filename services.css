@@ -1,17 +1,23 @@
 .content-wrapper {
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
+    margin: 0rem 1rem 4rem 3rem;
+    
 }
 
 .content-wrapper img {
     max-width: 50%;
     max-height: auto;
+    padding: 2rem;
+    border: solid 1px red;
 }
 
 .text-wrapper {
     width: fit-content;
     align-items: center;
+    margin: 1rem;
+    padding: 3rem;
+    max-width: 50%;
 
 }
 
@@ -22,7 +28,8 @@
 }
 
 .text-wrapper p {
-    font-size: 1rem;
+    font-size: 2rem;
     bordeR: solid 1px red;
+
     
 }
