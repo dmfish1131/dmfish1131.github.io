@@ -1,0 +1,7 @@
+title: Your Name
+description: Personal site with blog posts and contact
+url: "https://dmfish1131.github.io"
+baseurl: ""
+
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
